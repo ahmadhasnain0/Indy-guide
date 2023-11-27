@@ -1,0 +1,119 @@
+
+.card .card-footer .user-image {
+    width: 50px;
+    height: 50px;
+    }
+    
+    @media screen and (max-width: 340px) {
+    .card .card-footer .user-image {
+    width: 40px;
+    height: 40px;
+    }
+    }
+    .footer {
+        width: 100%
+    }
+    
+    .footer .footer-padding {
+        padding: .644rem 5.3rem 0
+    }
+    
+    @media screen and (max-width: 1199px) {
+        .footer .footer-padding {
+            padding:.644rem 2.2rem
+        }
+    }
+    
+    @media screen and (max-width: 767px) {
+        .footer .footer-padding {
+            padding:.644rem .6rem
+        }
+    }
+    
+    .footer .row .footer-p,.footer .row ul {
+        line-height: 2
+    }
+    
+    .footer .row .footer-p li:hover a,.footer .row ul li:hover a {
+        text-decoration: underline
+    }
+    
+    .footer .row .footer-logo {
+        width: 120px;
+        height: 18px
+    }
+    
+    @media screen and (max-width: 767px) {
+        .footer .row .footer-logo {
+            width:200px;
+            height: 30px
+        }
+    }
+    
+    .footer .row .social-wrapper li {
+        margin-right: 35px
+    }
+    
+    @media screen and (max-width: 575px) {
+        .footer .row .social-wrapper li {
+            margin-right:16px
+        }
+    }
+    
+    .footer .row .social-wrapper li:last-child {
+        margin-right: 0
+    }
+    
+    .footer .row .social-wrapper li img {
+        width: 24px;
+        height: 24px;
+        -webkit-filter: grayscale(1);
+        filter: grayscale(1);
+        transition: all .3s ease-in-out
+    }
+    
+    @media screen and (max-width: 575px) {
+        .footer .row .social-wrapper li img {
+            width:18px;
+            height: 18px;
+            -webkit-filter: brightness(0) invert(1);
+            filter: brightness(0) invert(1)
+        }
+    }
+    
+    .footer .row .social-wrapper li a:hover img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        transition: all .3s ease-in-out
+    }
+    
+    @media screen and (max-width: 575px) {
+        .footer .row .social-wrapper li a {
+            width:35px;
+            height: 35px;
+            line-height: 35px;
+            background-color: #615e5e
+        }
+    }
+    
+    .footer .bv-example-row .c-right {
+        font-size: 13px;
+        color: #999
+    }
+    
+    @media only screen and (max-width: 767px) {
+        .footer .bv-example-row .c-right {
+            color:#e6e3e3
+        }
+    }
+    
+    .footer .bv-example-row .c-right a {
+        color: #eaa61f
+    }
+    
+    @media only screen and (max-width: 767px) {
+        .footer .bv-example-row {
+            background:#474545
+        }
+    }
+    

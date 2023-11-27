@@ -1,0 +1,164 @@
+.destination-select {
+    z-index: 2 !important;
+    position: relative;
+    background-color: #fff;
+}
+.destination-select .col-xl-4 {
+    max-width: 30%;
+    margin-bottom: 45px;
+    width: 30%;
+    margin: 5px 45px 45px 5px;
+    }
+    
+    .destination-select .col-xl-4:nth-child(3n) {
+    margin-right: 0;
+    }
+    
+    @media screen and (max-width: 575px) {
+    .destination-select .col-xl-4:nth-child(3n) {
+    margin: 0 auto 30px;
+    }
+    }
+    
+    @media screen and (max-width: 1199px) {
+    .destination-select .col-xl-4 {
+    margin-right: 0;
+    max-width: 32.3%;
+    }
+    }
+    
+    @media screen and (max-width: 991px) {
+    .destination-select .col-xl-4 {
+    max-width: unset;
+    margin: 0 0 40px 0;
+    }
+    }
+    
+    @media screen and (max-width: 575px) {
+    .destination-select .col-xl-4 {
+    max-width: 90%;
+    margin: 0 auto 30px;
+    }
+    }
+    
+    @media screen and (max-width: 375px) {
+    .destination-select .col-xl-4 {
+    max-width: 95%;
+    }
+    }
+    
+    .destination-select .three-corner-border {
+    border-radius: 30px 0 30px 30px;
+    max-width: 291px;
+    }
+    
+    .destination-select .three-corner-border .destination-image-wrapper {
+    height: 310px;
+    }
+    
+    .destination-select .three-corner-border .destination-image-wrapper img {
+    border-radius: 30px 0 0 0;
+    }
+    
+    @media screen and (max-width: 767px) {
+    .destination-select .three-corner-border .destination-image-wrapper {
+    height: 200px;
+    }
+    }
+    
+    @media screen and (max-width: 430px) {
+    .destination-select .three-corner-border .destination-image-wrapper {
+    height: 174px;
+    }
+    }
+    
+    @media screen and (max-width: 350px) {
+    .destination-select .three-corner-border .destination-image-wrapper {
+    height: 160px;
+    }
+    }
+    
+    @media screen and (max-width: 330px) {
+    .destination-select .three-corner-border .destination-image-wrapper {
+    height: 150px;
+    }
+    }
+    
+    .destination-select .three-corner-border .destination-text div img {
+    width: 19px;
+    height: 19px;
+    }
+    
+    .destination-select .three-corner-border .destination-text div span {
+    color: #585858;
+    }
+    
+    .destination-select .three-corner-border .destination-text div .total-listings {
+    background-color: #6ad0f6;
+    }
+    
+    .destination-select .three-corner-border .destination-link {
+    color: #000;
+    }
+    
+    .destination-select .three-corner-border:hover {
+    box-shadow: 0 0 1px 2px rgba(234, 166, 31, 0.8);
+    }
+    
+    @media only screen and (max-width: 767px) {
+    .stats {
+    padding-top: 20px;
+    }
+    }
+    .card.hover-scale:hover {
+        transform: scale(1.05);
+        transition: all 0.3s ease-in-out;
+        }
+        
+.reviews .card .card-body .guest-wrapper {
+    width: 95px;
+    height: 95px;
+    }
+    
+    .reviews .card .card-body .guest-wrapper img {
+    border: 4px solid #f2f2f2;
+    z-index: 2;
+    }
+    
+    .reviews .card .card-body .guest-wrapper:before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 86px;
+    top: 48px;
+    left: 162px;
+    background: url(/images/review-background.png?54443e92ab7dafa4ed379d7ac566279a) no-repeat;
+    transform: translate(-50%, -50%);
+    background-size: contain;
+    z-index: 1;
+    }
+    .card .card-footer .user-image {
+        width: 50px;
+        height: 50px;
+        }
+        
+        @media screen and (max-width: 340px) {
+        .card .card-footer .user-image {
+        width: 40px;
+        height: 40px;
+        }
+        }
+        
+.btn.btn-cta {
+    background-color: #556121;
+    color: #fff;
+    border-color: #556121;
+    border: 2px solid #414a19;
+    }
+    
+    .btn.btn-cta:hover {
+    background-color: transparent;
+    color: #556121;
+    border-color: #556121;
+    }
+    

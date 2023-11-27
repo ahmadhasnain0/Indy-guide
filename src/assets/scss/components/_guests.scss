@@ -1,0 +1,174 @@
+
+
+.reviews .card {
+    box-shadow: 0 1px 1px 3px rgba(204, 179, 54, 0.18);
+    border-radius: 12px;
+    }
+    
+    .reviews .card .card-body .guest-wrapper {
+    width: 95px;
+    height: 95px;
+    }
+    
+    .reviews .card .card-body .guest-wrapper img {
+    border: 4px solid #f2f2f2;
+    z-index: 2;
+    }
+    
+    .reviews .card .card-body .guest-wrapper:before {
+    content: "";
+    position: absolute!important;
+    width: 90px!important;
+    height: 86px!important;
+    top: 48px!important;
+    left: 162px!important;
+    background: url(/images/review-background.png?54443e92ab7dafa4ed379d7ac566279a) no-repeat ;
+    transform: translate(-50%, -50%)!important;
+    background-size: contain!important;
+    z-index: 1!important;
+    margin-top: 8px!important;
+    }
+    
+    @media screen and (max-width: 1199px) {
+    .reviews .card .card-body .guest-wrapper:before {
+    left: 138px;
+    }
+    }
+    
+    .reviews .card .card-body .line-clamp-5 {
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    white-space: inherit;
+    min-height: 117px;
+    line-height: 22px;
+    }
+    
+    .reviews .card:hover {
+    box-shadow: 0 1px 20px 2px rgba(204, 179, 54, 0.4);
+    }
+    
+    .reviews:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1350px;
+    left: 0;
+    bottom: -42%;
+    background: url(/images/reviews-bg-img.png?b2ef53239298a8d2bab5a43c7595fa49) no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+    z-index: -1;
+    }
+    
+    @media only screen and (max-width: 767px) {
+    .reviews:after {
+    background-image: none;
+    background-color: #eaa61f;
+    height: 90%;
+    top: 90px;
+    }
+    }
+    
+    .reviews .g-reviews img {
+    width: 155px;
+    height: 62px;
+    }
+    
+    @media screen and (max-width: 575px) {
+    .reviews .g-reviews img {
+    height: 50px;
+    }
+    }
+    
+    @media screen and (max-width: 991px) {
+    .reviews .p-row {
+    flex-wrap: nowrap;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
+    padding: 0 20px;
+    }
+    
+    .reviews .p-row .inner-column {
+    padding: 0;
+    min-width: 270px;
+    margin-right: 24px;
+    }
+    
+    .reviews .p-row .inner-column:last-child {
+    margin-right: 0;
+    }
+    }
+    
+    @media screen and (max-width: 991px) and (max-width: 340px) {
+    .reviews .p-row .inner-column {
+    min-width: 257px;
+    margin-right: 15px;
+    }
+    }
+    
+    @media screen and (max-width: 991px) {
+    .reviews .p-row::-webkit-scrollbar {
+    background-color: transparent;
+    }
+    
+    .reviews .p-row::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    }
+    
+    .reviews .p-row::-webkit-scrollbar-track {
+    background-color: transparent;
+    }
+    }
+    .card.hover-scale:hover {
+        transform: scale(1.05);
+        transition: all 0.3s ease-in-out;
+        }
+
+        
+.reviews .card .card-body .guest-wrapper {
+    width: 95px;
+    height: 95px;
+    }
+    
+    .reviews .card .card-body .guest-wrapper img {
+    border: 4px solid #f2f2f2;
+    z-index: 2;
+    }
+    
+    .reviews .card .card-body .guest-wrapper:before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 86px;
+    top: 48px;
+    left: 162px;
+    background: url(../../images/review-background.png) no-repeat;
+    transform: translate(-50%, -50%);
+    background-size: contain;
+    z-index: 1;
+    }
+    
+    @media screen and (max-width: 1199px) {
+    .reviews .card .card-body .guest-wrapper:before {
+    left: 138px;
+    }
+    }
+    .sr-only {
+        position: absolute;
+        left: -10000px;
+        top: auto;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+    }
+    .vue-star-rating {
+        display: flex;
+        align-items: center;
+    }
+    .vue-star-rating-star {
+        display: inline-block;
+    }
